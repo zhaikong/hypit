@@ -20,11 +20,8 @@ coverage/
 .codex/*
 !.codex/skills
 .idea/
-.vscode/
 
 # Runtime credentials belong to the selected credential store, never Git.
-.env
-.env.*
 !.env.example
 *.key
 *.pem
@@ -73,3 +70,4 @@ examples/**/.svml/
 
 # Reverse-engineering scratch projects live outside the repository too
 /projects/*
+config.bat
