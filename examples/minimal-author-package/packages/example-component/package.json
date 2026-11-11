@@ -16,7 +16,7 @@
     "activation": "./dist/activation.js"
   },
   "scripts": {
-    "build": "tsc -p tsconfig.json",
+    "build": "node init && tsc -p tsconfig.json",
     "prepack": "npm run build"
   },
   "devDependencies": {
